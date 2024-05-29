@@ -1,9 +1,3 @@
-MAIN_PAGE = 'https://stellarburgers.nomoreparties.site/'        # Главная страница
-LOGIN_PAGE = 'https://stellarburgers.nomoreparties.site/login'  # Страница входа
-REGISTRATION_PAGE = 'https://stellarburgers.nomoreparties.site/register'    # Страница регистрации
-PROFILE_PAGE = 'https://stellarburgers.nomoreparties.site/account/profile'  # Страница профиля
-FORGOT_PASSWORD_PAGE = 'https://stellarburgers.nomoreparties.site/forgot-password'  # Страница восстановления пароля
-
 NAME_INPUT = ('xpath', '//label[text()="Имя"]/following-sibling::input')    # Поле ввода имени
 EMAIL_INPUT = ('xpath', '//label[text()="Email"]/following-sibling::input') # Поле ввода адреса почты
 PASSWORD_INPUT = ('xpath', '//label[text()="Пароль"]/following-sibling::input')  # Поле ввода пароля
